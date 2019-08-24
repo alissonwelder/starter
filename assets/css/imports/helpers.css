@@ -19,10 +19,30 @@
     display: block;
     background: #7E4ED3;
     width: max-content;
+    border-radius: 1rem;
 }
-h1{
-    margin: 0.7rem 0;
+.ligth-detail, .dark-detail{
+    position: relative;
+    margin-bottom: 2rem;
+
 }
-p {
-    margin-bottom: 1rem;
+.ligth-detail:after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 27px;
+    height: 2px;
+    background: #fff;
+    border-radius: 100rem;
+}
+.dark-detail:after{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 27px;
+    height: 2px;
+    background: #000;
+    border-radius: 100rem;
 }
