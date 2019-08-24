@@ -20,6 +20,7 @@
     background: #7E4ED3;
     width: max-content;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .ligth-detail, .dark-detail{
     position: relative;
